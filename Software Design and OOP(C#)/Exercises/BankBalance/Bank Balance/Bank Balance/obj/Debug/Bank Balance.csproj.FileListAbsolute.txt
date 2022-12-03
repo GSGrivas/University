@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\bin\Debug\Bank Balance.exe.config
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\bin\Debug\Bank Balance.exe
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\bin\Debug\Bank Balance.pdb
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\obj\Debug\Bank Balance.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\obj\Debug\Bank Balance.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\obj\Debug\Bank Balance.exe
+C:\Users\Student\source\repos\Bank Balance\Bank Balance\obj\Debug\Bank Balance.pdb

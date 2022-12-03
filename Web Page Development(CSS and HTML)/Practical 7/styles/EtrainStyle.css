@@ -1,0 +1,215 @@
+/* Georgio Grivas */
+/* 2017374683 */
+/* CSIS1664 */
+/* Practical 6 */
+/* Filename: EtrainStyle.css */
+
+*       {   margin: 0;
+            padding: 0;}
+
+body    {   color: #888888;
+            background-color: #ffffff;
+            font-family: "Helvetica Neue", Arial;
+            font-size: 16px;
+            line-height: 1.5em;
+        }
+
+h1, h2, h3, h4, h5, h6 {color: #0c2e60;}
+
+h1, h2 {
+        padding: 20px, 0, 10px;
+       }
+
+h5 {    font-size: 18px;
+        line-height: 22px}
+
+p {
+    margin-bottom: 16px;
+    margin-top: 0;}
+
+ul, ol {    margin-left: 15px;}
+
+div#container { max-width: 950px;
+                padding: 0 40px;
+                margin: 0 auto;}
+
+div#Header {    padding-top: 10px;
+                position: relative;
+            }
+
+div#Nav {   width: 525px;
+            padding: 2px;
+            position: absolute;
+            top: 10px;
+            right:10px;
+        }
+
+div#Nav a:link, div#Nav a:visited {
+                color: #c0bbb5;
+                font-weight: bold;
+                text-decoration: none;}
+
+div#Nav a:hover {
+                    color: #f0ac3e;
+                }
+                
+div#Nav a.current 
+{
+    color: #f0ac3e;
+}
+
+div#Banner {    height: 340px;
+                padding: 20px;
+                font-size: 150%;
+                line-height: 200%;
+                background-color: #f7f7f7;
+                margin-bottom: 20px;}
+
+div#Banner.breadcrumb { height: 200px;
+                        background-image: url("../images/breadcrumb.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        text-align: center;
+                        color: #ffffff;
+                        padding-top: 140px;
+                        }
+
+div#Banner.breadcrumb h2 {  text-transform: uppercase;
+                            color: #ffffff;
+                            font-size: 50px;
+                            margin-bottom: 10px;}
+
+div#Banner.breadcrumb p {   font-size: 15px;}
+
+div#Banner.breadcrumb span {    margin: 0 5px;
+                                font-size: 12px;}
+
+div#Content {   min-height: 300px;
+                margin-bottom: 20px;
+                padding: 20px;}
+
+div#Content ul li {    margin-left: 40px;
+                    padding-bottom: 5px;}
+
+div#Content img.right { float: right;}
+
+div#Footer {    background-color: #f7f7f7;
+                padding: 20px 0;
+                position: relative;}
+
+div#Footer a {  color: #888888;
+                text-decoration: none;}
+
+div#Footer a:hover {   color: #ff663b;}
+
+ul.formats {
+    list-style-type: none;
+   }
+
+ul.formats li
+    {
+    height: 55px;
+    }
+
+input[type="text"], textarea, select {
+    max-width: 67%;
+    padding: 10px;
+    font-size: 13px;
+    color: #888888;
+    border: 1px solid #888888;
+    }
+
+input[type="text"], select{
+    height: 40px;
+    }
+
+table tfoot{
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.button {
+    font-size: 15px;
+    padding: 12px 10px 12px 10px;
+    color: #ffffff;
+    background-color: #ff663b;
+    font-style: uppercase;
+}
+
+div#Nav ul {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    list-style-type: none; 
+}
+
+div#Nav li {
+    float: left;
+}
+
+div#Nav li a {
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    display: block;
+    padding: 5px auto;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+div#GetInTouch{
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+div#Footer h4 {
+    margin-bottom: 23px;
+    font-size: 24px;
+}
+
+div#Footer p {
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+div#Footer span {
+    color: #0c2e60;
+    font-size: 16px;
+}
+
+div#Footer_Left, div#Footer_Middle, div#Footer_Right {
+    width: 30%;
+    margin: auto 10px;
+}
+
+div#Footer_Middle {
+    margin-left: 35%;
+}
+
+div#Footer .copyright {
+    padding-top: 26px;
+    margin-top: 112px;
+    border-top: 1px solid #888888;
+    font-size: 15px;
+    text-align: center; 
+}
+
+div#Footer_Right {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+div#Footer_Left {
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    
+}
+
+
+
+
+

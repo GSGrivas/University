@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Paper>
+
+@{
+    ViewData["Title"] = "My Papers";
+}
+
+<h2>My Papers</h2>
+
+@*Dissmissable message*@
+@if (ViewData["Message"] != null)
+{
+    <div class ="alert alert-info alert-dismissible" role="alert">
+        <button type ="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden ="true"> &times;</span>@*to help assistive technology*@
+        </button>
+        @ViewData["Message"]
+    </div>
+}
+
+<p>
+    <a asp-action="Submit" class="btn btn-outline-primary btn-sm">Submit New Paper</a>
+</p>
+
+<div class="row">
+    <div class="col-1 font-weight-bold">
+        ID
+    </div>
+    <div class="col-6 font-weight-bold">
+        Title
+    </div>
+    <div class="col-2 font-weight-bold">
+        Submission date
+    </div>
+    <div class="col-1 font-weight-bold">
+        Topic
+    </div>
+    <div class="col-2 font-weight-bold"></div>
+</div>
+
+@foreach (var p in Model)
+{
+    <div class="row mt-2">
+
+        <div class="col-1">
+            @p.PaperId
+        </div>
+        <div class="col-6">
+            @p.PaperTitle
+        </div>
+        <div class="col-2">
+            @p.PaperDateSubmitted
+        </div>
+        <div class="col-1">
+            @p.Topic.TopicName
+        </div>
+        <div class="col-2">
+            <form asp-action="Delete" method="post">
+                <input type="hidden" name="paperId" value="@p.PaperId" />
+
+                <a asp-action="Edit" asp-route-id="@p.PaperId" 
+                   class="btn btn-warning btn-sm">Edit</a>
+
+                <button type ="submit" class="btn btn-danger btn-sm" 
+                        onclick="return confirm('Are you sure you want to delete this paper?')">
+                    Delete
+                </button>
+            </form>
+        </div>
+    </div>
+}
+
+
+

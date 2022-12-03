@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Initials and Surname -->
+<!-- Student number -->
+<!-- CSIS1664 (2019) - Etrain -->
+<!-- File name: contact.html -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Etrain - Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/EtrainStyle.css" />
+</head>
+
+<body>
+    <div id="Container">
+        <div id="Header">
+            <div id="Logo">
+                <p>
+                    <img src="images/logo.png" width="165" height="47"
+                         alt="Etrain Online Education" />
+                </p>
+            </div>
+
+            <div id="Nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subjects.html">Subjects</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="Banner" class="breadcrumb">
+            <h2>Contact Us</h2>
+            <p>
+                Home
+                <span>/</span>
+                Contact Us
+            </p>
+        </div>
+
+        <div id="Content">
+            <p>Below you will find all the contact details for Etrain.</p>
+
+            <h5>Physical Address</h5>
+            <p>
+                123 Du Plessis Avenue, Langenhoven Park <br />
+                Bloemfontein, 9301
+            </p>
+
+            <h5>Phone</h5>
+            <p>
+                +27 51 401 2754 <br />
+                Mon to Fri 9am to 6pm
+            </p>
+
+            <h5>Email</h5>
+            <p>
+                info@etrain.co.za<br />
+                Send us your query anytime!
+            </p>
+
+            <div id="GetInTouch">
+                <h2>Get in Touch</h2>
+
+                <form method="post" action="">
+                    <!--Hidden form elements -->
+                    <p>
+                        <input type="hidden" name="recipient" value="info@etrain.co.za" />
+                        <input type="hidden" name="subject" value="Enquiry" /> <!-- or another relevant value -->
+                        <input type="hidden" name="redirect" value="index.html" />
+                    </p>
+
+                    <p>
+                        <label>
+                            Name &amp; Surname:
+                            <input type="text" name="name" size="35" />
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            E-mail address:
+                            <input type="text" name="email" size="35" />
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            Postal address:
+                            <textarea name="message" rows="5" cols="35">
+	          		</textarea>
+                        </label>
+                    </p>
+
+                    <p>
+                        I would like to learn more about your educational material for
+                        the following subjects: <br />
+                        <label>
+                            <input type="radio" name="SubjectGroup" value="LanguageArt" />
+                            Language &amp; Art
+                        </label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="SubjectGroup" value="MathScience" />
+                            Math &amp; Science
+                        </label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="SubjectGroup" value="SocialStudies" />
+                            Social Studies
+                        </label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="SubjectGroup" value="All" checked="checked" />
+                            All subjects
+                        </label>
+                    </p>
+
+                    <p>
+                        <label>
+                            Age group:
+                            <select name="AgeGroup">
+                                <option>Pre-school</option>
+                                <option>Grade R</option>
+                                <option>Grade 1</option>
+                                <option>Grade 2</option>
+                                <option>Grade 3</option>
+                                <option>Grade 4</option>
+                                <option>Grade 5</option>
+                                <option>Grade 6</option>
+                                <option>Grade 7</option>
+                                <option selected="selected">All grades</option>
+                            </select>
+                        </label>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Send Message" class="button" />
+                        <input type="reset" value="Clear" class="button" />
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div id="Footer">
+            <div id="Footer_Left">
+                <img src="images/logo.png" width="165" height="47"
+                     alt="Etrain Online Education" />
+                <p>
+                    Online education resources and activities to support learning from
+                    pre-school to Grade 7
+                </p>
+            </div>
+            <div id="Footer_Middle">
+                <h4>Newsletter</h4>
+                <p>Stay updated with our latest resources.</p>
+                <form method="post">
+                    <p>
+                        <input type="text" value="Enter email address" size="50" />
+                        <input type="submit" value=">" class="button" />
+                    </p>
+                </form>
+            </div>
+            <div id="Footer_Right">
+                <h4>Contact us</h4>
+                <p>
+                    <span>Address:</span>
+                    123 Du Plessis Avenue, Bloemfontein
+                </p>
+                <p>
+                    <span>
+                        Email:
+                    </span>
+                    <a href="mailto:into@etrain.co.za">info@etrain.co.za</a>
+                </p>
+                <p>
+                    <span>
+                        Phone:
+                    </span>
+                    (051) 401-2754
+                </p>
+            </div>
+
+            <p class="copyright">
+                Copyright &copy; 2019 Etrain - All rights reserved
+            </p>
+        </div>
+    </div>
+</body>
+</html>

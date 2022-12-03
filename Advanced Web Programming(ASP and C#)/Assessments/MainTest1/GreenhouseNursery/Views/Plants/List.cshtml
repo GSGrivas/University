@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Plant>
+
+@{ ViewData["Title"] = "List"; }
+
+<h2>Our Plants</h2>
+
+<partial name="_StudentDetails" model="@Model" />
+
+<div class="pt-3">
+    <a class="btn btn-success"  asp-controller="Plants" asp-action="Add">Add New Plant</a>
+</div>
+

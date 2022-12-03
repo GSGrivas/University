@@ -1,0 +1,26 @@
+﻿@model Paper
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Paper</h1>
+
+<h4>Paper</h4>
+<hr />
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form  asp-action="Edit" method="post">
+    <input type="hidden" asp-for="PaperId" />
+    <input type="hidden" asp-for="PaperAuthor" />
+    <input type="hidden" asp-for="PaperDateSubmitted" />
+    <partial name="_PaperDetailsForm" model="@Model" />
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-sm">Save</button>
+        <a asp-controller="MyPapers" asp-action="MyPapers" class="btn btn-outline-primary btn-sm">Back to List</a>
+    </div>
+</form>
+
+

@@ -1,0 +1,157 @@
+<?xml version ="1.0" encoding ="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Georgio Grivas -->
+<!-- 2017374683 -->
+<!-- CSIS1664 (2019) -->
+<!-- File Name: contact.html -->
+
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Etrain Contacts</title>
+	</head>
+
+    <body>
+        <p>
+            <img src="images/logo.png"
+             height = "47"
+             width="165"
+             alt = "Image of Etrain logo" />
+        </p>
+
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Subject.html">Subjects</a></li>
+            <li><a href="faq.html">FAQS</a></li>
+            <li><a href="Contact.html">Contacts</a></li>
+        </ul>
+
+<!-- Beginning of page content -->
+
+        <h1>Contact us</h1>
+
+        <p>Below you will find all the contact details for Etrain.</p>
+
+        <h5>Physical Address</h5>
+        <p>
+            123 Du Plessis Avenue, Langenhoven Park <br />
+            Bloemfontein, 9301
+        </p>
+
+        <h5>Phone</h5>
+
+        <p>
+            +27 51 401 2754 <br />
+            Mon to Fri 9am to 6pm
+        </p>
+
+        <h5>Email</h5>
+        <p>
+            info@etrain.co.za<br />
+            Send us your query anytime!
+        </p>
+
+        <h5>Get in Touch</h5>
+
+        <form     method = "post"  action = "">
+		    <p>
+			   <input   type = "hidden" 	name = "recipient"
+						value = "info@etrain.co.za" />
+
+			   <input   type = "hidden" 	name = "subject" 
+				        value = "Request Information" />
+
+				<input  type = "hidden"  name = "redirect" 
+					    value = "index.html" /> 
+			</p>
+
+            <p>
+                <label>Name &amp; Surname:
+                    <input
+                    type="text"
+                    name="Name"
+                    size="35"
+                    maxlength="35"
+                    />
+                </label>
+            </p>
+
+            <p>
+                <label>E-mail Address:
+                    <input
+                    type="text"
+                    name="email"
+                    size="35"
+                    maxlength="35"
+                    />
+                </label>
+            </p>
+
+            <p>
+                <label>Postal Address:
+                    <textarea
+                    name="Postal"
+                    rows="4"
+                    cols="35">
+                    </textarea>
+                </label>
+            </p>
+
+            <p>I would like to learn more about your educational material for the following projects:
+                <br />
+                <label>
+                    <input name="SubjectGroup" type="radio" value="LanguageArt"/>
+                    Language &amp; Art
+                    <br />
+                </label>
+                <label>
+                    <input name="SubjectGroup" type="radio" value="MathScience"/>
+                    Math &amp; Science
+                    <br />
+                </label>
+                <label>
+                    <input name="SubjectGroup" type="radio" value="SocialStudies"/>
+                    Social Studies
+                    <br />
+                </label>
+                <label>
+                    <input name="SubjectGroup" type="radio" value="All" checked="Checked"/>
+                    All Subjects
+                </label>
+            </p>
+
+            <p>
+                <label> Age Group
+                    <select name = "Age">
+                      <option> Pre-School </option>
+                      <option> Grade R </option>
+                      <option> Grade 1 </option>
+                      <option> Grade 2 </option>
+                      <option> Grade 3 </option>
+                      <option> Grade 4 </option>
+                      <option> Grade 5 </option>
+                      <option> Grade 6 </option>
+                      <option> Grade 7 </option>
+                      <option   selected = "selected"> All Grades </option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit"
+                       value="Send Message"/>
+                <input type="reset"
+                       value="Clear"/>
+            </p>
+        </form>
+
+<!-- End of page content -->
+        <hr />
+
+        <p>Calls us now: (051) 401-2754</p>
+        <p>Send us a message: <a href="mailto:info@etrain.co.za">info@etrain.co.za</a></p>
+        <p>Copyright &copy; 2019 - All rights reserved</p>
+    </body>
+</html>

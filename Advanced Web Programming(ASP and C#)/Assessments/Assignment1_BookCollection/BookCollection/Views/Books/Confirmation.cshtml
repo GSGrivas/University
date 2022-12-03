@@ -1,0 +1,21 @@
+﻿@model Book
+
+@{
+        ViewData["Title"] = "Confirm";
+}
+
+<div class="text-center">
+    <p>
+        <a asp-controller="Books" asp-action="Library">Confirm</a>
+    </p>
+    <h3>@Model.BookTitle was added to your collection!</h3>
+
+        @if (Model.BookIsRead == true)
+        {
+        <p>You have already read this book.</p>
+        }
+        else
+        {
+        <p>You still want to read this book.</p>
+        }
+    </div>

@@ -1,0 +1,39 @@
+﻿@model Plant
+
+@{ ViewData["Title"] = "Details"; }
+
+<h2>@Html.DisplayNameFor(model => Model.PlantCommonName)</h2>
+
+@*PlantScientificName*@
+<div class="row">
+    <div class="col-3">@Html.DisplayNameFor(model => Model.PlantScientificName)</div>
+    <div class="col-9">@Model.PlantScientificName</div>
+</div>
+
+@*PlantWaterNeed*@
+<div class="row">
+    <div class="col-3">@Html.DisplayNameFor(model => Model.PlantWaterNeed) </div>
+    <div class="col-9">@Model.PlantWaterNeed out of 5</div>
+</div>
+
+@*PlantPrice*@
+<div class="row">
+    <div class="col-3">@Html.DisplayNameFor(model => Model.PlantPrice)</div>
+    <div class="col-9">@Model.PlantPrice.ToString("C2")</div>
+</div>
+
+@*PlantDateAdded*@
+<div class="row">
+    <div class="col-3">@Html.DisplayNameFor(model => Model.PlantDateAdded)</div>
+    <div class="col-9">@Model.PlantDateAdded.ToShortDateString()</div>
+</div>
+
+@*Category*@
+<div class="row">
+    <div class="col-3">@Html.DisplayNameFor(model => Model.Category)</div>
+    <div class="col-9">@Model.Category.CategoryName</div>
+</div>
+
+<div class="mt-2">
+    <a asp-controller="Plants" asp-action="List">Return to list of plants...</a>
+</div>

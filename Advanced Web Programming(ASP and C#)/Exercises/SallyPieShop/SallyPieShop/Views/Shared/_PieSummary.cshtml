@@ -1,0 +1,11 @@
+﻿@model Pie
+<div class="col-md-4">
+    <div class="bg-light m-3 pb-2">
+        <img src="@Model.ImageThumbnailUrl" alt="@Model.Name" style="width: 100%">
+        <h3 class="text-right">@Model.Price.ToString("c")</h3>
+        <h3>
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@Model.PieId">@Model.Name</a>
+        </h3>
+        <p>@Model.ShortDescription</p>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Georgio\Documents\Work\Programs\2018 Exam Q1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

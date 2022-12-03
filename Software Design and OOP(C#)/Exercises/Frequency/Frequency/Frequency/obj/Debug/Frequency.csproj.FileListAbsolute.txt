@@ -1,0 +1,7 @@
+C:\Users\Georgio\source\repos\Frequency\Frequency\bin\Debug\Frequency.exe.config
+C:\Users\Georgio\source\repos\Frequency\Frequency\bin\Debug\Frequency.exe
+C:\Users\Georgio\source\repos\Frequency\Frequency\bin\Debug\Frequency.pdb
+C:\Users\Georgio\source\repos\Frequency\Frequency\obj\Debug\Frequency.csprojAssemblyReference.cache
+C:\Users\Georgio\source\repos\Frequency\Frequency\obj\Debug\Frequency.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\source\repos\Frequency\Frequency\obj\Debug\Frequency.exe
+C:\Users\Georgio\source\repos\Frequency\Frequency\obj\Debug\Frequency.pdb

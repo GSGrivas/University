@@ -1,0 +1,92 @@
+/* Georgio Grivas */
+/* 2017374683 */
+/* CSIS1664 */
+/* Practical 6 */
+/* Filename: EtrainStyle.css */
+
+*       {   margin: 0;
+            padding: 0;}
+
+body    {   color: #888888;
+            background-color: #ffffff;
+            font: 16px/1.5em "Helvetica Neue", Arial;
+        }
+
+h1, h2, h3, h4, h5, h6 {color: #0c2e60;}
+
+h1, h2 {
+        padding: 20px, 0, 10px;
+       }
+
+h5 {    font-size: 18px;
+        line-height: 22px}
+
+p {
+    margin-bottom: 16px;
+    margin-top: 0;}
+
+ol, ul {    margin-left: 15px;}
+
+div#container { max-width: 950px;
+                padding: 0 40px;
+                margin: 0 auto;}
+
+div#Header {    padding-top: 10px;}
+
+div#Nav {   width: 525px;
+            padding: 2px;}
+
+div#Nav a:link, div#Nav a:visited {
+                color: #c0bbb5;
+                font-weight: bold;
+                text-decoration: none;}
+
+div#Nav a:hover, div#Nav a.current {
+                                    color: #f0ac3e;
+                                    }
+
+div#Banner {    height: 340px;
+                padding: 20px;
+                font-size: 150%;
+                line-height: 200%;
+                background-color: #f7f7f7;
+                margin-bottom: 20px;}
+
+div#Banner.breadcrumb { height: 200px;
+                        background-image: url("../images/breadcrumb.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        text-align: center;
+                        color: #ffffff;
+                        padding-top: 140px;
+                        }
+
+div#Banner.breadcrumb h2 {  text-transform: uppercase;
+                            color: #ffffff;
+                            font-size: 50px;
+                            margin-bottom: 10px;}
+
+div#Banner.breadcrumb p {   font-size: 15px;}
+
+div#Banner.breadcrumb span {    margin: 0 5px;
+                                font-size: 12px;}
+
+div#Content {   min-height: 300px;
+                margin-bottom: 20px;
+                padding: 20px;}
+
+div#Content ul {    margin-left: 40px;
+                    padding-bottom: 5px;}
+
+div#Content img.right { float: right;}
+
+div#Footer {    background-color: #f7f7f7;
+                padding: 20px 0}
+
+div#Footer a {  font-color: #888888;
+                text-decoration: none;}
+
+div#Footer a:hover {   font-color: #ff663b;}
+
+

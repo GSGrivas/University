@@ -1,0 +1,21 @@
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe.config
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.pdb
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csprojAssemblyReference.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.pdb
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csprojAssemblyReference.cache
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.exe
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.pdb
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe.config
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe
+C:\Users\Georgio\Desktop\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.pdb
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe.config
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\bin\Debug\Stove Simulator.pdb
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csprojAssemblyReference.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Stove Simulator\Stove Simulator\obj\Debug\Stove Simulator.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toothbrushes", "Toothbrushes\Toothbrushes.csproj", "{2DDB86EB-A023-47FA-8A7F-F4AA0DAFE900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DDB86EB-A023-47FA-8A7F-F4AA0DAFE900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDB86EB-A023-47FA-8A7F-F4AA0DAFE900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDB86EB-A023-47FA-8A7F-F4AA0DAFE900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDB86EB-A023-47FA-8A7F-F4AA0DAFE900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85FD7E80-3E57-4592-B654-F65426459274}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\Georgio\Documents\C# Builds\Hangman.exe.config
+C:\Users\Georgio\Documents\C# Builds\Hangman.exe
+C:\Users\Georgio\Documents\C# Builds\Hangman.pdb
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Release\Hangman.csprojAssemblyReference.cache
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Release\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Release\Hangman.exe
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Release\Hangman.pdb

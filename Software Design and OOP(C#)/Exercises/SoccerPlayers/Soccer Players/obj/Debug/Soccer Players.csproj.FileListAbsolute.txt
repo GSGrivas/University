@@ -1,0 +1,10 @@
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\bin\Debug\Soccer Players.exe.config
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\bin\Debug\Soccer Players.exe
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\bin\Debug\Soccer Players.pdb
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer Players.csprojAssemblyReference.cache
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer_Players.Footballers.resources
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer_Players.Properties.Resources.resources
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer Players.csproj.GenerateResource.cache
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer Players.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer Players.exe
+C:\Users\Georgio\source\repos\Soccer Players\Soccer Players\obj\Debug\Soccer Players.pdb

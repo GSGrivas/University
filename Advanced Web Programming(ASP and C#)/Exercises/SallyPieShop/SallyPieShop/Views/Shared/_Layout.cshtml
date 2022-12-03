@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<!-- Include your personal details here -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" asp-href-include="/styles/custom.css" />
+</head>
+<body>
+    <div class="navbar bg-dark navbar-dark navbar-expand-sm ">
+        <div class="container">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                <img src="~/images/sallylogo.png" alt="Sally's Pie shop"
+                     style="width: 40px" />
+            </a>
+            <!-- Toggler/collapsable Button-->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu content that will collapse. Must have an ID -->
+            <div class="collapse navbar-collapse" id="MyNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="PiesOfTheWeek" asp-action="PiesOfTheWeek" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Feedback" asp-action="Index" class="nav-link">Feedback</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
+    <script asp-src-include="/lib/popper.js/popper.min.js"></script>
+    <script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

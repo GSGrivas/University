@@ -1,0 +1,10 @@
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\bin\Debug\Toothbrushes.exe.config
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\bin\Debug\Toothbrushes.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\bin\Debug\Toothbrushes.pdb
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.csprojAssemblyReference.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.CfrmToothbrush.resources
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.Properties.Resources.resources
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.csproj.GenerateResource.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Exercises\Toothbrushes\Toothbrushes\obj\Debug\Toothbrushes.pdb

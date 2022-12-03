@@ -1,0 +1,14 @@
+C:\Users\Georgio\source\repos\Hangman\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\Georgio\source\repos\Hangman\Hangman\bin\Debug\Hangman.exe
+C:\Users\Georgio\source\repos\Hangman\Hangman\bin\Debug\Hangman.pdb
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Debug\Hangman.csprojAssemblyReference.cache
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Debug\Hangman.exe
+C:\Users\Georgio\source\repos\Hangman\Hangman\obj\Debug\Hangman.pdb
+C:\Users\Student\Desktop\2017374683\Hangman\bin\Debug\Hangman.exe.config
+C:\Users\Student\Desktop\2017374683\Hangman\bin\Debug\Hangman.exe
+C:\Users\Student\Desktop\2017374683\Hangman\bin\Debug\Hangman.pdb
+C:\Users\Student\Desktop\2017374683\Hangman\obj\Debug\Hangman.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\2017374683\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\2017374683\Hangman\obj\Debug\Hangman.exe
+C:\Users\Student\Desktop\2017374683\Hangman\obj\Debug\Hangman.pdb

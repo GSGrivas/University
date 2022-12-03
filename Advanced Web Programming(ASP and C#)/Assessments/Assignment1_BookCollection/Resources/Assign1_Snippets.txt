@@ -1,0 +1,176 @@
+CSIS3734 (2021) - Assignment 1
+Code and markup snippets
+*******************************
+
+Domain model
+------------
+
+Regular expression for ISBN number: (Note: This expression must be in a single line in your code)
+^(?:ISBN(?:-1[03])?:?\\ )?(?=[0-9X]{10}$|(?=(?:[0-9]+[-\\ ]){3})[-\\ 0-9X]{13}$|97[89][0-9]{10}$|(?=(?:[0-9]+[-\\ ]){4})[-\\ 0-9]{17}$)(?:97[89][-\\ ]?)?[0-9]{1,5}[-\\ ]?[0-9]+[-\\ ]?[0-9]+[-\\ ]?[0-9X]$
+
+Note: All of the following are examples of valid input:
+
+ISBN 978-0-596-52068-7
+ISBN-13: 978-0-596-52068-7
+978 0 596 52068 7
+9780596520687
+ISBN-10 0-596-52068-9
+0-596-52068-9
+0 596 52068 9
+0596520689
+
+Basic layout
+------------
+
+<!DOCTYPE html>
+<!-- CSIS3734 (2021): Assignment 1 -->
+<!-- Add Personal details here-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Books - @ViewData["Title"]</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Custom styles for this template (Your own styles) -->
+    <link rel="stylesheet" asp-href-include="/styles/custom.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-md bg-success navbar-dark">
+        <div class="container">
+            <!-- Brand -->
+            <!-- Link to Home page -->
+            <a class="navbar-brand">My Book Collection</a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="MyNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Add</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Library</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        <!-- Unique content of each View to be displayed here -->
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="mt-1 p-2 bg-dark text-light text-center">
+            <p>Created by: <!-- Add your Initials. Surname (Student no.)--></p>
+            <p class="small">&copy; CSIS3734 (2021)</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
+    <script asp-src-include="/lib/popper.js/popper.min.js"></script>
+    <script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+Home page
+---------
+
+<div class="jumbotron text-light text-center">
+    <h1 class="display-3 font-weight-bold">Welcome to my Book Collection!</h1>
+    <p class="lead font-weight-bold">A collection of all the books I have read and those on my wish list.</p>
+        <a class="btn btn-primary">Add a Book</a>
+</div>
+
+
+Add Book page
+-------------
+
+<h4>Add a Book</h4>
+
+<form class="p-1">
+
+    @*Title controls*@
+    <div class="form-group">
+        <label></label>
+        <input class="form-control" />
+    </div>
+
+    @*Author controls*@
+    <div class="form-group">
+        <label></label>
+        <input class="form-control" />
+    </div>
+
+    @*ISBN controls*@
+    <div class="form-group">
+        <label></label>
+        <input class="form-control" />
+    </div>
+
+    @*IsRead controls*@
+    <div class="form-group">
+        <label>Have you read this book?</label>
+        <select class="custom-select">
+            <option value="">Choose an option</option>
+            <option value="true">Yes, I have read this book</option>
+            <option value="false">No, I still want to read this book</option>
+        </select>
+    </div>
+    <div class="text-center">
+        <button class="btn btn-primary" type="submit">
+            Add Book to Collection
+        </button>
+    </div>
+</form>
+
+
+Confirmation page
+------------------
+
+<div class="text-center">
+    <h3>"..." was added to your collection!</h3>
+    <p>
+           You have already read this book.
+           You still want to read this book.
+    </p>
+</div>
+
+
+Library page
+------------
+
+<h3>Here is the list of all books in your collection that you have already read</h3>
+<table class="table table-sm table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>

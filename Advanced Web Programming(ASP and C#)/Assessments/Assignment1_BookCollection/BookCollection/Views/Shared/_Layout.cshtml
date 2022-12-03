@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<!-- CSIS3734 (2021): Assignment 1 -->
+<!-- GS. Grivas 2017374683-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Books - @ViewData["Title"]</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Custom styles for this template (Your own styles) -->
+    <link rel="stylesheet" asp-href-include="/styles/custom.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-md bg-success navbar-dark">
+        <div class="container">
+            <!-- Brand -->
+            <!-- Link to Home page -->
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">My Book Collection</a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="MyNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Books" asp-action="Add">Add</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Books" asp-action="Library">Library</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="mt-1 p-2 bg-dark text-light text-center">
+            <p>Created by: GS. Grivas 2017374683</p>
+            <p class="small">&copy; CSIS3734 (2021)</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
+    <script asp-src-include="/lib/popper.js/popper.min.js"></script>
+    <script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

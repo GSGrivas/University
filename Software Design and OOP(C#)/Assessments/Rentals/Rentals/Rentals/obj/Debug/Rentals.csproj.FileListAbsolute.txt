@@ -1,0 +1,10 @@
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\bin\Debug\Rentals.exe.config
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\bin\Debug\Rentals.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\bin\Debug\Rentals.pdb
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.csprojAssemblyReference.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.CfrmRentals.resources
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.Properties.Resources.resources
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.csproj.GenerateResource.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.exe
+C:\Users\Georgio\Google Drive\CSIS1624\Projects\Rentals\Rentals\obj\Debug\Rentals.pdb

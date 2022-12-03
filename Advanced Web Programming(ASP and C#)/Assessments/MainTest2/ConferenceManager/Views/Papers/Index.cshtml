@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Paper>
+
+@{
+    ViewData["Title"] = "Papers";
+}
+
+<h2>Submitted Papers</h2>
+
+<table class="table table-sm table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+                Author
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+
+                <td>
+                    @p.PaperId
+                </td>
+                <td>
+                    @p.PaperTitle
+                </td>
+                <td>
+                    @p.PaperAuthor
+                </td>
+            </tr>
+        }
+        </tbody>
+</table>
+

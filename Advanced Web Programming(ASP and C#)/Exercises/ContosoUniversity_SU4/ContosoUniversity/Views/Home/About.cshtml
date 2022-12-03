@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EnrollmentGroupViewModel>
+@{
+    ViewData["Title"] = "Student Body Statistics";
+}
+
+<h2>Student Body Statistics</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                Enrollment Year
+            </th>
+            <th class="pl-5">
+                Number of Students
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.EnrollmentYear
+                </td>
+                <td class="text-center">
+                    @item.StudentCount
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

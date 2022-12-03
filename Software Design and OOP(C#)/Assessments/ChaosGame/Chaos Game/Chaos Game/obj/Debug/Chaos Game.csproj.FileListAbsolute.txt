@@ -1,0 +1,7 @@
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\bin\Debug\Chaos Game.exe.config
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\bin\Debug\Chaos Game.exe
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\bin\Debug\Chaos Game.pdb
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\obj\Debug\Chaos Game.csprojAssemblyReference.cache
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\obj\Debug\Chaos Game.csproj.CoreCompileInputs.cache
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\obj\Debug\Chaos Game.exe
+C:\Users\Georgio\Documents\Work\Programs\Chaos Game\Chaos Game\obj\Debug\Chaos Game.pdb

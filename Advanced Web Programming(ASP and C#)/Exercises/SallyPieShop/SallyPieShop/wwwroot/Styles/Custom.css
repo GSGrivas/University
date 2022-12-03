@@ -1,0 +1,9 @@
+﻿body {
+    background-image: url('/images/pattern.png');
+    background-repeat: repeat;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}

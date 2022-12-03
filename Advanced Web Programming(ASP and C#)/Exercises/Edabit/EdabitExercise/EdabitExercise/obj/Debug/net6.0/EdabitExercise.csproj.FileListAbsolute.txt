@@ -1,0 +1,15 @@
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.csproj.AssemblyReference.cache
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.AssemblyInfoInputs.cache
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.AssemblyInfo.cs
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.csproj.CoreCompileInputs.cache
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\EdabitExercise.exe
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\EdabitExercise.deps.json
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\EdabitExercise.runtimeconfig.json
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\EdabitExercise.dll
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\ref\EdabitExercise.dll
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\bin\Debug\net6.0\EdabitExercise.pdb
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.dll
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\ref\EdabitExercise.dll
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.pdb
+D:\Documents\University\Programming\Edabit\EdabitExercise\EdabitExercise\obj\Debug\net6.0\EdabitExercise.genruntimeconfig.cache

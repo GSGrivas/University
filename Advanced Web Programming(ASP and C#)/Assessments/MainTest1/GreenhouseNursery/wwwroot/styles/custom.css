@@ -1,0 +1,7 @@
+.jumbotron {
+    background-image: url('/images/leaves.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 400px;
+}
+

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<!-- CSIS3734 (2021) - SportsStore -->
+<!-- GS Grivas 20173746783-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link asp-href-include="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link asp-href-include="lib/font-awesome/css/all.css" rel="stylesheet" />
+
+    <title>@ViewData["Title"] - Sports Store</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">SPORTS STORE</a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse justify-content-stretch"
+                 id="MyNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Admin</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" asp-controller="Order"
+                               asp-action="List">Orders</a>
+                            <a class="dropdown-item" asp-controller="Admin"
+                               asp-action="Index">Products</a>
+                            <a class="dropdown-item"
+                               asp-page="/Users/List">Users</a>
+                            <a class="dropdown-item"
+                               asp-page="/Users/Roles">Roles</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    @*User Checks if you are authenticated and shows user name*@
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-link">
+                            Hello, @User.Identity.Name
+                            <img profile-user="@User.Identity.Name"/>
+                        </li>
+
+                        <li class="nav-item">
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+
+                                <button class="btn btn-link nav-link" type="submit">Log Out</button>
+
+                            </form>
+                        </li>
+                        
+                        <li>
+                            @*@await Component.InvokeAsync("CartSummary")*@
+                            <vc:cart-summary />
+                            @*Chad version of above commented code (Requires @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers)*@
+                        </li>
+ }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Log in</a>
+                        </li>
+                    }
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row m-1 p-1">
+            <div id="categories" class="col-3">
+                @*@await Component.InvokeAsync("NavigationMenu")*@
+                <vc:navigation-menu />
+                @*Chad version of above commented code (Requires @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers)*@
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container mt-5">
+        <div class="text-center small">
+            <p class="small">
+                Created by:  GS Grivas (20173746783)
+                <br />
+                &copy; CSIS3734 (2021)
+            </p>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script asp-src-include="lib/jquery/jquery.slim.min.js"></script>
+
+    <script asp-src-include="lib/popper.js/popper.min.js"></script>
+
+    <script asp-src-include="lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

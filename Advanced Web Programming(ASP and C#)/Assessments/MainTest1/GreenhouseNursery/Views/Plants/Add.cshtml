@@ -1,0 +1,64 @@
+﻿@model Plant
+
+@{ ViewData["Title"] = "Add"; }
+
+<h2>Add New Plant</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-5">
+        <form method="post" asp-action="Add">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            @*PlantCommonName controls*@
+            <div class="form-group">
+                <label asp-for="PlantCommonName" class="control-label"></label>
+                <input asp-for="PlantCommonName" class="form-control" />
+                <span asp-validation-for="PlantCommonName" class="text-danger"></span>
+            </div>
+
+            @*PlantScientificName controls*@
+            <div class="form-group">
+                <label asp-for="PlantScientificName" class="control-label"></label>
+                <input asp-for="PlantScientificName" class="form-control" />
+                <span asp-validation-for="PlantScientificName" class="text-danger"></span>
+            </div>
+
+            @*PlantWaterNeed controls*@
+            <div class="form-group">
+                <label asp-for="PlantWaterNeed" class="control-label"></label>
+                <input asp-for="PlantWaterNeed" class="form-control" />
+                <span asp-validation-for="PlantWaterNeed" class="text-danger"></span>
+            </div>
+
+            @*PlantPrice controls*@
+            <div class="form-group">
+                <label asp-for="PlantPrice" class="control-label"></label>
+                <input asp-for="PlantPrice" class="form-control" />
+                <span asp-validation-for="PlantPrice" class="text-danger"></span>
+            </div>
+
+            @*CategoryId controls*@
+            <div class="form-group">
+                <label class="control-label"></label>
+                <select asp-for="CategoryId" class="custom-select">
+                    <option value="">Choose an option</option>
+                    <option value="1">Herbs</option>
+                    <option value="2">Shrubs</option>
+                    <option value="3">Trees</option>
+                    <option value="4">Climbers</option>
+                    <option value="5">Creepers</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Plants" asp-action="List">Back to List</a>
+</div>
